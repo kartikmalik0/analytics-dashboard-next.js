@@ -1,11 +1,9 @@
 
-import Link from "@/components/Link";
-import { useRouter } from "next/navigation";
 
 export default function Home() {
-  return(
-    <>
-    <Link/>
-    </>
-  )
+  return (
+    <div className=" cursor-pointer text-3xl text-center h-screen w-full flex items-center justify-center " >
+     Go to /analytics
+    </div>
+    )
 }
