@@ -69,4 +69,4 @@ export class Analytics{
     }
 }
 
-export const analytics = new Analytics
+export const analytics = new Analytics()

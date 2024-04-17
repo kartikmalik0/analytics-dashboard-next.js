@@ -1,7 +1,7 @@
 import { Redis } from '@upstash/redis'
 
 export const redis = new Redis({
-  url: 'https://apn1-huge-eagle-34913.upstash.io',
+  url: 'https://apn1-relative-clam-34464.upstash.io',
   token: process.env.REDIS_KEY!,
 })
 
